@@ -1,1 +1,1 @@
-# ipfs-for-wordpress
+# IPFS for Wordpress
