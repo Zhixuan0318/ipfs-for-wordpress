@@ -9,5 +9,10 @@
 ### Design scheme of database
 Let's say we have a "image" table, we have two attribute:
 1. CID
-2. Image Name
-Every image added by the user will have this two attribute, CID is a must (this make sense as uploading to IPFS tools will sure have a CID returned.) However, name will be optional, it may be NULL or have a name given when the user upload this image. Of course, if user didn't give the image a name when upload, it can choose to give it a name in the future (we will then just need to update the image name for that CID in the table).
+2. Image Name:
+
+    Every image added by the user will have this two attribute, CID is a must (this make sense as uploading to IPFS tools will sure have a CID returned.) However, name will be optional, it may be NULL or have a name given when the user upload this image. Of course, if user didn't give the image a name when upload, it can choose to give it a name in the future (we will then just need to update the image name for that CID in the table).
+
+3. alt tag
+   
+   Here is how you store an alt tag, we store it locally. Everytime user upload an image, the image will automatically have the `alt` attribute, initially it is a NULL. User can set this `alt` attribute through the UI. Hence, we do not store the alt to IPFS.
