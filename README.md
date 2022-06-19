@@ -7,7 +7,7 @@
    * Name (User need to give this upload a name (this name will store locally on server storage (MySQL), not on IPFS), however this is optional. If the user doesnt give this upload a name, the image name will be the CID (which return after the IPFS storing succeed). If the user give the upload a name, after the image is retrieve and display in library, the image name will be the name given during the upload popup.) **FOR A MORE CLEARER IDEA, READ `Design Scheme of Database`**
 
 ### Design scheme of database
-Let's say we have a "image" table, we have two attribute:
+Let's say we have a "image" table, we have three attribute:
 1. CID
 2. Image Name:
 
