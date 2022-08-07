@@ -16,7 +16,7 @@ The "IPFS for WordPress" plugin is ready to download and install on your WordPre
 4. Go to your WordPress admin panel > "Plugins" tab > Click "Add New" > Click "Upload Plugin"
 5. Upload the `ipfs-for-wp.zip` plugin file, wait for the install, and you are ready to go!
 
-## How powerful is the plugin? | Features Overview
+## Features Overview
 
 Here is a **features overview (TL;DR)**  of the "IPFS for WordPress" plugin:
 
@@ -30,7 +30,7 @@ Here is a **features overview (TL;DR)**  of the "IPFS for WordPress" plugin:
 * IPFS Content Delivery Network (ICDN) for WordPress 
 
 
-##### ⭐ Details of the features 👇:
+### ⭐ Details of the features 👇:
 
 
 #### ✔️ APIs support for IPFS storage tools
