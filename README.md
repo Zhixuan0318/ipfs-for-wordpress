@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="ipfs-wordpress-logo.png" width=250>
+    <img src="readme-image/ipfs-wordpress-logo.png" width=250>
     <h1>IPFS for WordPress</h1>
     <strong>The all-in-one plugin that provides powerful & comprehensive IPFS solutions for WordPress CMS.</strong>
 </div>
