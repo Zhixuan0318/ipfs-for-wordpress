@@ -31,20 +31,20 @@ Here is a **features overview (TL;DR)**  of the "IPFS for WordPress" plugin:
 
 ### ✔️ APIs support for IPFS storage tools
 
-![API support](https://gateway.pinata.cloud/ipfs/QmY3NHw5aT2gCGuxS2JypzT8c93Re6ntPen9VeH41C1i2d)
+![API support](readme-image/api.png)
 
 Users can choose which IPFS storage tools to use by enabling them in the configuration tab of their plugin admin panel, and easily connect their IPFS storage tools with the help of APIs keys and secrets created from their storage tools account. The dashboard of the plugin will also display the APIs connection status of their IPFS storage tools. Users can now easily set up the plugin and are ready to use all the IPFS features just with a few simple configuration steps. With the APIs support, media assets and files can be seamlessly retrieved from users' IPFS storage tools (IPFS network) and also able to upload anything with one click. Every feature of the plugin will be hassle-free with the APIs support, and users can just focus on their integration, site-building as well as all the IPFS tasks in one place, which is WordPress.
 
 ### ✔️ Media libraries for IPFS storage tools
 
-![media libraries](https://gateway.pinata.cloud/ipfs/QmNmKzUz6g67rEBdQKCzWk3iptcRBWEPFxwaZS2YVZKABt)
+![media libraries](readme-image/medialibrary.png)
 
 Every IPFS storage tool (Pinata, Web3.Storage, Nft.Storage) will have its own individual media library and be able to access all of them in the plugin admin panel. In other words, when users retrieve images from IPFS storage tools, the images will be added to the respective media library and can be easily managed. Worth mentioning that the media retrieving process is just a few simple clicks and your IPFS-retrieved images are ready to use on your WP site. Not only displaying the images retrieved from the IPFS storage tools, but users can also edit the image details with our image lightbox editor, and apply SEO to the IPFS-retrieved image assets. Furthermore, by toggling on the IPFS image block (Elementor addons) at the dashboard, users can now easily use their IPFS-retrieved images on their WP site with the help of the popular WordPress website builder, Elementor.
 
 
 ### ✔️On-the-spot upload & retrieve for IPFS storage tools
 
-![On-the-spot upload & retrieve](https://gateway.pinata.cloud/ipfs/QmX5M9DgKp9vpu95Wy7trUKaPwE7pNehjiZqp73N5euGS3)
+![On-the-spot upload & retrieve](readme-image/onthespot.png)
 
 Remember that, one of the aims of this plugin is to help WordPress sites (Web2.0) to implement IPFS solutions (Web3.0) with ease. Hence, the plugin has built-in a feature to let users directly transfer media assets that are originally stored on the server storage to the IPFS network (via IPFS storage tools: Pinata, Web3.Storage, Nft.Storage) with just a few simple clicks. The whole process looks like this:
 
@@ -56,7 +56,7 @@ The image stored on the local media library will be uploaded to the IPFS network
 
 ### ✔️ Lottie animation support for IPFS
 
-![lottie](https://gateway.pinata.cloud/ipfs/QmTFy7ydRChNqU2n5qEGdnqWLFp7qLUbKkbcSG3ymzedDv)
+![lottie](readme-image/lottie.png)
 
 > Lottie is an open-source animation file format that’s tiny, high quality, interactive, and can be manipulated at runtime. 600% smaller when compared to GIF and 10 times faster to ship. It is definitely the go-to choice when implementing animation on your website. Plus, we can now manage our Lottie animation with IPFS!
 
@@ -64,7 +64,7 @@ User can upload their Lottie JSON file onto IPFS storage tools (Pinata, Web3.Sto
 
 ### ✔️ Elementor addons for IPFS integrations
 
-![addons](https://gateway.pinata.cloud/ipfs/QmcR6M1m2JWA3Y1PmqU55m25shAoKzfvMqGNX6jg1hW9rC)
+![addons](readme-image/ipfs.png)
 
 Elementor is a popular WordPress website builder which is suitable for beginners as well as advanced developers. When IPFS integration meets Elementor, there are endless possibilities and make everything of site building so simple.  We had built in several IPFS Elementor addons for this plugin and users just have to toggle it on at the dashboard, and they will be able to use it in the Elementor website builder. There are six IPFS Elementor addons in this plugin:
 
@@ -77,14 +77,14 @@ Elementor is a popular WordPress website builder which is suitable for beginners
 
 >**👉 Here's a demo landing page built using the IPFS Elementor addons | [Click here to visit](https://landing.tanzhixuan.com/)**
 
-![advanced setting](https://gateway.pinata.cloud/ipfs/QmWAmqRtCrnQaQoMUYDPv3wKLr5LBaPosQXKQL7gb3vUeE)
+![advanced setting](readme-image/advsetting.png)
 
 Furthermore, all the addons (IPFS Elementor blocks) were built-in with various advanced CSS settings and customizations, which can be accessed from the individual block settings. Styling of IPFS-retrieved images on the WordPress site is possible and much more user-friendly with the help of the IPFS Elementor addons.
 
 
 ### ✔️ IPFS integration for WooCommerce
 
-![woocommerce](https://gateway.pinata.cloud/ipfs/QmcDCggLKjyF2fXBbkujdgstgKXYhe38DU1ZKCkJ8JEYuR)
+![woocommerce](readme-image/woocommerce.png)
 
 If you are running an eCommerce store with thousands of products, product images will probably occupy a large amount of space in your hosting server, and it is costly to upgrade your server storage and maintain it in the long run. Now, with the power of IPFS, you can run a big eCommerce store with just a small hosting server. 
 
@@ -98,11 +98,11 @@ By default, whenever we upload an image to WordPress, WordPress will automatical
 When an image is retrieved from the IPFS network, the IPFS image generation system will generate different resolutions (size) of that image and pack them into a folder, and then upload it back to the IPFS network. The CID of that folder containing different size variants of that image will be stored in the local site database to keep track of the folder. When the site needs to render a specific size of that image, the system will locate the image folder (via CID) and retrieve the image size needed from the folder. The IPFS image generation system supports the product image size optimization of WooCommerce (when integrating with IPFS), allows users to manually select image sizes for their WP site in Elementor, and also powers the thumbnail system of the IPFS libraries itself. 
 
 Here is a simple diagram showing how the image generation process works, as well as the communication between the WordPress backend and IPFS storage tools:
-![Loading... diagram fetching from IPFS network](https://gateway.pinata.cloud/ipfs/QmVq7E8j6rEp1ziSe7XWNEefCsN7vWVc77xRYv4LcABTKu)
+![Loading... diagram fetching from IPFS network](readme-image/flow.png)
 
 ### ✔️ IPFS Content Delivery Network (ICDN) for WordPress
 
-![cdn](https://gateway.pinata.cloud/ipfs/Qmd8PLYixxfPhhGUP5mnH1YFhnXT4pddmExrxVJRiJ9z4b)
+![cdn](readme-image/cdn.png)
 
 > One of the must-haves when it comes to WordPress website speed is a content delivery network (CDN). A CDN takes the load off your web server and speeds up content delivery to all site visitors. As a result, everything from your user experience to search engine potential improves! However, running a CDN (Cloudflare, RocketCDN, etc.) for your WordPress website might be costly in the long run. **Hence, the first IPFS Content Delivery Network (ICDN) for WordPress comes to the rescue, giving everyone the chance to run a CDN solution for their WP website, but in a cheaper (or even FOC) and efficient way. All thanks to the power of IPFS technology!** IPFS nodes will play the role of "POP" (point of presence) in an ICDN network, replacing the traditional CDN server.
 
@@ -112,4 +112,4 @@ ICDN also provides an extra feature - Automated File Minification. CSS dan JS mi
 
 Here is a simple diagram to illustrate how the ICDN works:
 
-![Loading... diagram2 fetching from IPFS network](https://gateway.pinata.cloud/ipfs/QmNhG1h5JinuPuGbDZ9ATyuqZQVCcFsNtEw5PkAu51svio)
+![Loading... diagram2 fetching from IPFS network](readme-image/icdn.png)
