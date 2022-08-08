@@ -92,6 +92,9 @@ WooCommerce is the most popular open-source eCommerce solution on WordPress and 
 
 
 ### ✔️ IPFS image generation system
+
+![system](readme-image/system.png)
+
 By default, whenever we upload an image to WordPress, WordPress will automatically create a few different sizes of the same image. Users don’t have to keep resizing images manually to ensure the best image size is selected for different locations on your website. However, images retrieved from IPFS storage tools (Pinata, Web3.Storage,  Nft.Storage) will not have this image generation process. Hence, a specially-designed image generation system is built into the plugin to process all the images retrieved from the IPFS network and added to the libraries of the plugin. 
 
 When an image is retrieved from the IPFS network, the IPFS image generation system will generate different resolutions (size) of that image and pack them into a folder, and then upload it back to the IPFS network. The CID of that folder containing different size variants of that image will be stored in the local site database to keep track of the folder. When the site needs to render a specific size of that image, the system will locate the image folder (via CID) and retrieve the image size needed from the folder. The IPFS image generation system supports the product image size optimization of WooCommerce (when integrating with IPFS), allows users to manually select image sizes for their WP site in Elementor, and also powers the thumbnail system of the IPFS libraries itself. 
