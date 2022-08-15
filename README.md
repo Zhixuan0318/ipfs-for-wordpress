@@ -10,9 +10,13 @@
 
 The "IPFS for WordPress" plugin is ready to download and install on your WordPress site, here's how:
 
-1. Click on a zip file, which has a file name of `ipfs-for-wp.zip`. This is the WordPress plugin file you are looking for.
+1. Click on a zip file, which has a file name of `ipfs-for-wp.zip`. This is the WordPress plugin file you are looking for. The ipfs-for-wp folder is just an extract version of the plugin zip file for convenient code reading, hence, please download the zip version.
+<img width="662" alt="image" src="https://user-images.githubusercontent.com/69501009/184685099-bf59cc8b-5c97-4cd2-91dd-4ae9d9e29d71.png">
+
 2. Download it onto your local computer.
+
 3. Go to your WordPress admin panel > "Plugins" tab > Click "Add New" > Click "Upload Plugin"
+
 4. Upload the `ipfs-for-wp.zip` plugin file, wait for the install, and you are ready to go!
 
 ## Features Overview
